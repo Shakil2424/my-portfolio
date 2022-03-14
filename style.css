@@ -13,7 +13,7 @@ h1{
 
 }
 
-section{
+.flexible-container{
 
     display:flex;
     margin-bottom: 100px;
@@ -50,5 +50,27 @@ background-repeat: no-repeat;
  
     background-image: url(images/2nd-banner.png);
    background-position: right;
+  
 
+}
+
+.experience-area{
+
+    box-shadow: 10px 10px 40px gray;
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-left:10px solid;
+}
+
+#left{
+ border-radius: 10px solid;
+ border-image: linear-gradient(orange,tomato);
+ border-image-slice:1 ;
+
+}
+
+footer p{
+    text-align: center;
 }
